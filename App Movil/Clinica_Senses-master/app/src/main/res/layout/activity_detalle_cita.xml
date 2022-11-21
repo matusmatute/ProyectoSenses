@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalle.Detalle_Cita">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <!--TXT - ICONO - ID_Cita -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/id_cita_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Id_cita_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - ID_Cita -->
+        <TextView
+            android:id="@+id/Id_cita_detalle"
+            android:text="@string/Id_cita_detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Uid_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/uid_usuario_detalle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Uid_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Uid_Detalle-->
+        <TextView
+            android:id="@+id/Uid_Detalle"
+            android:text="@string/Uid_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Correo_usuario_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/correo_usuario_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Correo_usuario_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Correo_usuario_Detalle-->
+        <TextView
+            android:id="@+id/Correo_usuario_Detalle"
+            android:text="@string/Correo_usuario_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Ultima_Visita_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ultima_visita_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Ultima_Visita_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Ultima_Visita_Detalle-->
+        <TextView
+            android:id="@+id/Ultima_Visita_Detalle"
+            android:text="@string/Ultima_Visita_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Motivo_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/motivo_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Motivo_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Motivo_Detalle-->
+        <TextView
+            android:id="@+id/Motivo_Detalle"
+            android:text="@string/Motivo_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Motivo_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/como_se_entero_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Como_Se_Entero_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Motivo_Detalle-->
+        <TextView
+            android:id="@+id/Como_Se_Entero_Detalle"
+            android:text="@string/Como_Se_Entero_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Fecha_Registro_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fecha_registro_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Fecha_Registro_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Fecha_Registro_Detalle-->
+        <TextView
+            android:id="@+id/Fecha_Registro_Detalle"
+            android:text="@string/Fecha_Registro_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Fecha_Cita_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fecha_cita_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Fecha_Cita_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Fecha_Cita_Detalle-->
+        <TextView
+            android:id="@+id/Fecha_Cita_Detalle"
+            android:text="@string/Fecha_Cita_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <!--TXT - ICONO - Estado_Detalle-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estado_detalle"
+                />
+            <!--TXT-->
+            <TextView
+                android:text="@string/Estado_Detalle_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--DATO - Estado_Detalle-->
+        <TextView
+            android:id="@+id/Estado_Detalle"
+            android:text="@string/Estado_Detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

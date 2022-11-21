@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Clinica_Senses</string>
+
+    <!--Identificadores de MAIN ACTIVITY-->
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+
+
+    <!--Actividad Registro-->
+    <string name="CrearCuentaTXT">Crear una cuenta</string>
+    <string name="NombreEt">Nombres</string>
+    <string name="CorreoEt">Correo Electronico</string>
+    <string name="ContraseñaEt">Contraseña</string>
+    <string name="ConfirmarContraseñaEt">Confirmar Contraseña</string>
+    <string name="RegistrarUsuario">Registrar</string>
+    <string name="TengounacuentaTXT">Tengo una cuenta</string>
+
+
+    //Actividad Login
+    <string name="IniciarSesionTXT">Iniciar Sesión</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_Logeo">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tienes una cuenta?. Regístrate</string>
+
+
+    <!--Menu Principal-->
+    <string name="BienvenidoPrincipal">Bienvenido(a)</string>
+    <string name="UidPrincipal"> -- </string>
+    <string name="NombresPrincipal"> --  </string>
+    <string name="CorreoPrincipal"> -- </string>
+    <string name="EstadoCuentaPrincipal"> No virificado </string>
+
+
+    <string name="AgendarCita">Agregar Cita</string>
+    <string name="ListarCitas">Mis Citas</string>
+    <string name="Archivados">Archivados</string>
+    <string name="Perfil">Perfil</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="CerrarSesion">Salir</string>
+
+
+    <!--Agendar Citas-->
+    <string name="uid_usuario">uid de Usuario</string>
+    <string name="Correo_usuario">Correo de Usuario</string>
+    <string name="Fecha_hora_actual_TXT">Fecha de Registro</string>
+    <string name="Fecha_hora_actual">Fecha y hora actual</string>
+    <string name="Ultima_Visita">Última visita al odontólogo/Motivo</string>
+    <string name="Motivo">Motivo de consulta actual</string>
+    <string name="Como_Se_Entero">¿Cómo se enteró usted de la clínica?</string>
+    <string name="Btn_Calendario">Calendario</string>
+    <string name="Fecha">00/00/0000</string>
+    <string name="Estado">No finalizado</string>
+
+
+    <!--Menu-->
+    <string name="Agregar_Cita_BD">Agregar</string>
+    <string name="Actualizar_Cita_BD">Actualizar</string>
+
+    <!--Item Cita-->
+    <string name="Id_cita_Item">Id nota</string>
+    <string name="Correo_usuario_Item">Correo de Usuario</string>
+    <string name="Fecha_hora_registro_Item">Fecha y hora actual</string>
+    <string name="Ultima_Visita_Item">Última visita al odontólogo/Motivo</string>
+    <string name="Motivo_Item">Motivo de consulta registro</string>
+    <string name="Como_Se_Entero_Item">¿Cómo se enteró usted de la clínica?</string>
+    <string name="Fecha_Item">00/00/0000</string>
+    <string name="Estado_Item">No finalizado</string>
+
+
+    <!--Cuadro de Dialogo-->
+    <string name="ElijaOpcionTXT">Elija una opción</string>
+    <string name="CD_Eliminar">Eliminar</string>
+    <string name="CD_Actuallizar">Actualizar</string>
+
+
+    <!--CUADRO DE DI{ALOGO - CUENTA VERIFICADA-->
+    <string name="CuentaVerificadaTXT">Cuenta Verificada</string>
+    <string name="EntendidoVerificado">Entendido</string>
+
+
+
+    <!--Actualizar Cita-->
+    <string name="Id_cita_A">Id cita</string>
+    <string name="Correo_usuario_A">Correo de Usuario</string>
+    <string name="uid_usuario_A">uid de Usuario</string>
+    <string name="Fecha_registro_A">Fecha de registro</string>
+    <string name="Ultima_Visita_A">Última visita al odontólogo/Motivo</string>
+    <string name="Motivo_A">Motivo de consulta actual</string>
+    <string name="Como_Se_Entero_A">¿Cómo se enteró usted de la clínica?</string>
+    <string name="Btn_Calendario_A">Calendario</string>
+    <string name="Fecha_A">00/00/0000</string>
+    <string name="Estado_A">No finalizado</string>
+    <string name="Estado_nuevo"> -- </string>
+
+
+    <!--SPINNER ESTADO-->
+    <string-array name="Estados_cita">
+        <item>"No Finalizado"</item>
+        <item>"Finalizado"</item>
+    </string-array>
+
+
+    <!--Detalle Nota-->
+    <string name="Id_cita_TXT">ID de la cita: </string>
+    <string name="Id_cita_detalle">ID Cita</string>
+    <string name="Uid_Detalle_TXT">Uid Usuario: </string>
+    <string name="Uid_Detalle">Uid Usuario</string>
+    <string name="Correo_usuario_Detalle_TXT">Correo usuario: </string>
+    <string name="Correo_usuario_Detalle">Correo usuario</string>
+    <string name="Ultima_Visita_Detalle_TXT">Ultima Visita: </string>
+    <string name="Ultima_Visita_Detalle">Ultima Visita</string>
+    <string name="Motivo_Detalle_TXT">Motivo: </string>
+    <string name="Motivo_Detalle">Motivo</string>
+    <string name="Como_Se_Entero_Detalle_TXT">Como se entero: </string>
+    <string name="Como_Se_Entero_Detalle">Como se entero</string>
+    <string name="Fecha_Registro_Detalle_TXT">Fecha registro: </string>
+    <string name="Fecha_Registro_Detalle">Fecha registro</string>
+    <string name="Fecha_Cita_Detalle_TXT">Fecha cita: </string>
+    <string name="Fecha_Cita_Detalle">Fecha cita</string>
+    <string name="Estado_Detalle_TXT">Estado de la cita: </string>
+    <string name="Estado_Detalle">Estado</string>
+
+
+</resources>

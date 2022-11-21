@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602875972138",
+    "firebase_url": "https://clinica-senses-default-rtdb.firebaseio.com",
+    "project_id": "clinica-senses",
+    "storage_bucket": "clinica-senses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602875972138:android:f34978a2ee7f6614bb9153",
+        "android_client_info": {
+          "package_name": "com.example.clinica_senses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602875972138-5j3gl2bosf3hpn18t7bfpl62f87kegpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clinica_senses",
+            "certificate_hash": "c20f10b27105c2b9143e37cb6594960ae443e479"
+          }
+        },
+        {
+          "client_id": "602875972138-da6b0nbns6rp6eblmvelv5qtl847k5ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrG3cRAgM_3Estas5Fz-LB_OOoIoxtnoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602875972138-da6b0nbns6rp6eblmvelv5qtl847k5ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
